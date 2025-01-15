@@ -1,0 +1,28 @@
+{
+    "header": {
+      "title": "Legal Aid Support"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    },
+    "home": {
+      "welcome": "Welcome to the Legal Aid Service",
+      "instruction": "Please describe your problem in detail. Upload any documents that may help us understand your case. You can also choose to call us.",
+      "problem_label": "Describe your legal issue:",
+      "upload_label": "Upload supporting documents:",
+      "call_label": "Or call us to describe your issue:",
+      "submit_button": "Submit"
+    },
+    "myCase": {
+      "title": "My Case",
+      "progress": "Case Progress",
+      "meetings": "Meetings & Notes",
+      "next_steps": "Next Steps",
+      "upload_new": "Upload new documents",
+      "add_info": "Add new information",
+      "qa_title": "Q & A",
+      "qa_placeholder": "Ask a question about your case...",
+      "qa_button": "Submit Question"
+    }
+  }
+  

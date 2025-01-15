@@ -1,0 +1,14 @@
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.home-container {
+  margin-bottom: 2rem;
+}
+
+.my-case-container {
+  margin-bottom: 2rem;
+}
+
+/* If you want a custom height on the Navbar or Footer, you can override here */
