@@ -6,17 +6,19 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import MyCase from './pages/MyCase';
+import ClientDashboard from './pages/ClientDashboard';
 
 function App() {
   return (
     <Router>
       <div className="app d-flex flex-column vh-100">
-        <Header />
+        {/* <Header /> */}
         
         <main className="flex-fill py-4">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/my-case" element={<MyCase />} />
+            <Route path="/dashboard" element={<ClientDashboard />} />
           </Routes>
         </main>
         
