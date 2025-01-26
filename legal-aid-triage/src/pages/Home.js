@@ -85,62 +85,14 @@ const Home = () => {
     <Card sx={{ maxWidth: 700, margin: 'auto', mt: 4, boxShadow: 3 }}>
       <CardContent sx={{ p: 4 }}>
         <Typography variant="h5" gutterBottom>
-          Client Intake Form
+          How can we help?
         </Typography>
         <Typography variant="body2" color="text.secondary" paragraph>
-          Please provide us with your contact details and a brief description 
-          of your legal issue. You may also attach any relevant files to help 
-          us better understand your situation.
+          I understand that I am not yet a LANC client because I still have to talk to someone to determine final eligibility.
         </Typography>
 
         <Box component="form" onSubmit={handleSubmit}>
           <Grid container spacing={2}>
-            {/* First Name */}
-            <Grid item xs={12} sm={6}>
-              <TextField
-                required
-                fullWidth
-                label="First Name"
-                value={intakeData.firstName}
-                onChange={handleChange('firstName')}
-              />
-            </Grid>
-
-            {/* Last Name */}
-            <Grid item xs={12} sm={6}>
-              <TextField
-                required
-                fullWidth
-                label="Last Name"
-                value={intakeData.lastName}
-                onChange={handleChange('lastName')}
-              />
-            </Grid>
-
-            {/* Email */}
-            <Grid item xs={12} sm={6}>
-              <TextField
-                required
-                fullWidth
-                type="email"
-                label="Email"
-                value={intakeData.email}
-                onChange={handleChange('email')}
-              />
-            </Grid>
-
-            {/* Phone */}
-            <Grid item xs={12} sm={6}>
-              <TextField
-                required
-                fullWidth
-                type="tel"
-                label="Phone"
-                value={intakeData.phone}
-                onChange={handleChange('phone')}
-              />
-            </Grid>
-
             {/* Problem Description */}
             <Grid item xs={12}>
               <TextField
@@ -148,7 +100,7 @@ const Home = () => {
                 fullWidth
                 multiline
                 rows={4}
-                label="Describe Your Problem"
+                label="Describe Your Legal Problem"
                 value={intakeData.problemDescription}
                 onChange={handleChange('problemDescription')}
                 placeholder="Tell us about your legal issue or concern..."
@@ -193,7 +145,7 @@ const Home = () => {
                 sx={{ mt: 2 }}
                 fullWidth
               >
-                Submit Intake
+                Submit
               </Button>
             </Grid>
           </Grid>
